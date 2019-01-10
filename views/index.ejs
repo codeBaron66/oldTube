@@ -12,7 +12,7 @@
   </head>
   <body>
 
-    <nav>
+    <nav class="navigation">
       <div class="container-fluid">
         <div class="row">
           <div class="col">
@@ -27,12 +27,48 @@
         </div>
       </div>
     </nav>
-
-    <div class="player">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0xuxMVYYKe3CCBKxTP_c9a8ko_3TkwI9" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-
+    
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-9">
+            <div class="player">
+              <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/videoseries?list=PL0xuxMVYYKe3CCBKxTP_c9a8ko_3TkwI9" 
+              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col buttonDiv">
+            <h2>Select A Playlist</h2>
+            <div class="row">
+              <button type="button" class="btn btn-primary btn-lg btn-block playlistBtn">Wartime</button>
+            </div>
+            <div class="row">
+              <button type="button" class="btn btn-primary btn-lg btn-block playlistBtn">50's Swing</button>
+            </div>
+            <div class="row">
+              <button type="button" class="btn btn-primary btn-lg btn-block playlistBtn">Queen Panpipes</button>
+            </div>
+            <div class="row">
+              <button type="button" class="btn btn-primary btn-lg btn-block playlistBtn">Classical</button>
+            </div>
+            <div class="row">
+              <button type="button" class="btn btn-primary btn-lg btn-block playlistBtn">Elvis</button>
+            </div>
+            <div class="row">
+              <button type="button" class="btn btn-primary btn-lg btn-block playlistBtn">Megadeath</button>
+            </div>
+            <div class="row">
+              <button type="button" class="btn btn-primary btn-lg btn-block playlistBtn">Chillout</button>
+            </div>
+            <div class="row">
+              <button type="button" class="btn btn-primary btn-lg btn-block playlistBtn">Primary</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

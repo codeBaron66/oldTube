@@ -1,9 +1,25 @@
-.container-fluid{
+body{
+  max-height: 100vh;
+}
+
+.navigation{
   background-color: #222;
   padding: 0.5rem 0;
   box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 12px 0 rgba(0, 0, 0, 0.19);
+  color: #fff;
 }
 
 #inputSearch{
   width: 30rem;
+}
+
+.content{
+  min-height: 100vh;
+  max-height: 100vh;
+  background-color: #222;
+}
+
+.playlistBtn{
+  margin-bottom: 1rem;
+  margin-right: 1rem;
 }
