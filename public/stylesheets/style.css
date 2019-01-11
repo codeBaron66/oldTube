@@ -1,19 +1,31 @@
 body{
-  background: url("https://image.freepik.com/free-photo/vintage-music_1048-3366.jpg");
+  background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/51/28/445790e5c0232b6.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  color: white;
+  color: #222;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+/*NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR */
 .navigation{
-  padding: 0.5rem 0;
-  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 12px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 0 0 20px;
   font-family: 'IM Fell English', serif;
-  color: white;
+  border-bottom: 5px solid black;
 }
 
 .navigation, h1{
   font-weight: bold;
+}
+
+#radio{
+  height: 3em;
+  width: 3em;
+  margin-right: 5px;
+  padding-bottom:5px;
+  
 }
 
 /*VIDEO SECTION VIDEO SECTION VIDEO SECTION*/
@@ -21,11 +33,15 @@ body{
   margin-top: 3em;
 }
 
+iframe{
+  border: 15px solid black;
+  border-style: double;
+}
+
 /*PLAYLIST SECTION PLAYLIST SECTION PLAYLIST SECTION*/
 .buttonDiv{
-  /*border-left: 2px solid #ccc;*/
+  border-left: 5px solid #111;
   font-family: 'IM Fell English', serif;
-  color: white;
 }
 
 .linkDiv{
@@ -37,5 +53,5 @@ body{
 }
 
 .pylstLink, a{
-  color: #fff;
+  color: #222;
 }
