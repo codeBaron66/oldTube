@@ -2,41 +2,38 @@ body{
   background: url("https://image.freepik.com/free-photo/vintage-music_1048-3366.jpg");
   background-size: cover;
   background-position: center;
-  font-family: 'IM Fell English', serif;
-  color: #fff;
+  color: white;
 }
 
 .navigation{
   padding: 0.5rem 0;
   box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 12px 0 rgba(0, 0, 0, 0.19);
-  color: #fff;
-  font-size: 2.5em;
   font-family: 'IM Fell English', serif;
+  color: white;
 }
 
-#inputSearch{
-  width: 30rem;
-}
-
-.content{
-  min-height: 100vh;
-  max-height: 100vh;
+.navigation, h1{
+  font-weight: bold;
 }
 
 /*VIDEO SECTION VIDEO SECTION VIDEO SECTION*/
-.player{
-  height: 100vh;
+#player{
+  margin-top: 3em;
 }
 
 /*PLAYLIST SECTION PLAYLIST SECTION PLAYLIST SECTION*/
 .buttonDiv{
-  border-left: 2px solid #ccc;
+  /*border-left: 2px solid #ccc;*/
+  font-family: 'IM Fell English', serif;
   color: white;
 }
 
 .linkDiv{
-  background-color: gray;
   margin-bottom: 0.7rem;
+}
+
+.linkDiv, a{
+    font-size: 1.3em;
 }
 
 .pylstLink, a{
