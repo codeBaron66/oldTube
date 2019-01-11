@@ -1,12 +1,17 @@
 body{
-  max-height: 100vh;
+  background: url("https://image.freepik.com/free-photo/vintage-music_1048-3366.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: 'IM Fell English', serif;
+  color: #fff;
 }
 
 .navigation{
-  background-color: #222;
   padding: 0.5rem 0;
   box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 12px 0 rgba(0, 0, 0, 0.19);
   color: #fff;
+  font-size: 2.5em;
+  font-family: 'IM Fell English', serif;
 }
 
 #inputSearch{
@@ -16,10 +21,24 @@ body{
 .content{
   min-height: 100vh;
   max-height: 100vh;
-  background-color: #222;
 }
 
-.playlistBtn{
-  margin-bottom: 1rem;
-  margin-right: 1rem;
+/*VIDEO SECTION VIDEO SECTION VIDEO SECTION*/
+.player{
+  height: 100vh;
+}
+
+/*PLAYLIST SECTION PLAYLIST SECTION PLAYLIST SECTION*/
+.buttonDiv{
+  border-left: 2px solid #ccc;
+  color: white;
+}
+
+.linkDiv{
+  background-color: gray;
+  margin-bottom: 0.7rem;
+}
+
+.pylstLink, a{
+  color: #fff;
 }
